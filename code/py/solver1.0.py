@@ -42,12 +42,12 @@ def shoot(En):
     ddn = ((1+c*f(xm+h))*wfdn[-3] - (1+c*f(xm-h))*wfdn[-1])/(h+h)
     return dup*wfdn[-2] - wfup[-2]*ddn
 
-xL, xR, N = 10**(-5), 15., 2200  # limits, interval
+xL, xR, N = 10**(-5), 120., 2200  # limits, interval
 m, hbar, V0 =  1.0, 1.0, 1.0     # constants
-lamda = 1.0                      # yukawa interaction range
+lamda = 0.0                      # yukawa interaction range
 h = (xR-xL)/N                    # step size
 Lmax, EL = 4, []                 # define max L, blank L array
-M = 100                          # M = matching point
+M = N // 2                       # M = matching point
 
 Estart, dE = -.5/np.arange(1, Lmax+1)**2-.1, 0.001      # $\sum_n -1/2n^2$
 for L in range(Lmax):
