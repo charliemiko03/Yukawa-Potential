@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Background}{3}{0}{1}
+\beamer@sectionintoc {2}{Goals}{8}{0}{2}
+\beamer@sectionintoc {3}{Methods}{16}{0}{3}
+\beamer@sectionintoc {4}{Results \& Discussion}{31}{0}{4}
+\beamer@sectionintoc {5}{Moving Forward}{43}{0}{5}
+\beamer@sectionintoc {6}{AI Implementation}{47}{0}{6}
+\beamer@sectionintoc {7}{References}{51}{0}{7}
